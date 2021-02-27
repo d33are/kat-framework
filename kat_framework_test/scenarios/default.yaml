@@ -1,0 +1,41 @@
+# Katherine configuration file
+# Lines starting with # are treated as comments (or with whitespaces+#).
+
+global:
+  agent_class: kat_framework.agents.deep_q.QAgent
+  driver_class: kat_framework.drivers.episode.SyncEpisodeDriver
+  metrics_tracer_class: kat_tensorflow.monitor.metrics.TensorboardTracer
+  model_serializer_class: kat_framework.serialization.model.KatModelSerializer
+  model_storage_driver_class: kat_tensorflow.serialization.storage.TensorflowStorageDriver
+  network_class: kat_tensorflow.networks.deep_q.QNetwork
+  memory_class: kat_tensorflow.memory.uniform.TensorflowUniformMemory
+  work_directory: training
+  train_batch_size: 64
+  #cluster_info:
+  #  - ("ps", "localhost", 1234)
+  #  - ("worker", "localhost", 1235)
+agent:
+  distributed_learning_enabled: False
+  action_frequency: 4
+  initial_exploration_rate: 1
+  final_exploration_rate: 0.01
+  memory_max_size: 10000
+  network_synchronization_frequency: 1000
+  max_observe_episodes: 1000
+network:
+  optimizer_learning_rate: 0.01
+  reward_discount_factor: 0.99
+  model_persistence_enabled: true
+  model_checkpoints_enabled: true
+  checkpoint_frequency: 100
+driver:
+  max_episodes: 50
+  max_steps: 1000
+  sleep_time: 0.0
+  training_enabled: true
+metrics:
+  gpu_profiler_enabled: false
+  enabled_network_metrics:
+    - TENSORFLOW_TRAIN_LOSS_MEAN
+    - TENSORFLOW_AGENT_EXPLORATION_RATE
+    - TENSORFLOW_AGENT_TOTAL_SCORE

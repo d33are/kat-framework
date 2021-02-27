@@ -1,0 +1,32 @@
+# Katherine configuration file
+# Lines starting with # are treated as comments (or with whitespaces+#).
+
+global:
+  game_class: kat_framework.games.katherine.dummy.DummyGame
+  agent_class: kat_framework.agents.rand.RandomChoiceAgent
+  driver_class: kat_framework.drivers.episode.SyncEpisodeDriver
+  metrics_tracer_class: kat_framework.monitor.metrics.DummyTracer
+  model_serializer_class: kat_framework.serialization.model.KatModelSerializer
+  model_storage_driver_class: kat_framework.serialization.storage.DummyStorageDriver
+  network_class: kat_framework.networks.models.random.RandomActionNetwork
+  memory_class: kat_framework.memory.uniform.UniformMemory
+  work_directory: training
+agent:
+  distributed_learning_enabled: False
+  input_observation_name: screen_buffer
+  frame_stacking_enabled: True
+  convert_to_monochrome: True
+  number_of_stacked_frames: 4
+  action_frequency: 4
+  train_batch_size: 64
+  initial_exploration_rate: 1
+  final_exploration_rate: 0.01
+  memory_max_size: 10000
+  max_observe_episodes: 128
+driver:
+  max_episodes: 100
+  max_steps: 100
+  sleep_time: 0.1
+  training_enabled: true
+metrics:
+  gpu_profiler_enabled: false
