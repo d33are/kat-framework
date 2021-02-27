@@ -95,21 +95,21 @@ The main goal of the framework is to be simple as possible, and able to use it w
 
 * VizDoom - "basic" map:
 
-| Gameplay                                                 |                         Score MA                          |
-| -------------------------------------------------------- | :-------------------------------------------------------: |
-| ![](/resources/vizdoom-basic/vizdoom_basic_gameplay.gif) | ![](/resources/vizdoom-basic/avg_score_vizdoom_basic.jpg) |
+| Gameplay                                                                                       |                                            Score MA                                             |
+| ---------------------------------------------------------------------------------------------- | :---------------------------------------------------------------------------------------------: |
+| <img src="/resources/vizdoom-basic/vizdoom_basic_gameplay.gif" width="320" title="hover text"> | <img src="/resources/vizdoom-basic/avg_score_vizdoom_basic.jpg" width="450" title="hover text"> |
 
 * VizDoom - "defend the line" map:
 
-| Gameplay                                                   |                       Score MA                       |
-| ---------------------------------------------------------- | :--------------------------------------------------: |
-| ![](/resources/vizdoom-defend/vizdoom-defend-gameplay.gif) | ![](/resources/vizdoom-defend/agent_total_score.jpg) |
+| Gameplay                                                                                         |                                          Score MA                                          |
+| ------------------------------------------------------------------------------------------------ | :----------------------------------------------------------------------------------------: |
+| <img src="/resources/vizdoom-defend/vizdoom-defend-gameplay.gif" width="320" title="hover text"> | <img src="/resources/vizdoom-defend/agent_total_score.jpg" width="450" title="hover text"> |
 
 * OpenAI gym - Box2D - LunarLander:
 
-| Gameplay                                               |                      Score MA                      |
-| ------------------------------------------------------ | :------------------------------------------------: |
-| ![](/resources/lunar-lander/lunar-lander-gameplay.gif) | ![](/resources/lunar-lander/agent_total_score.jpg) |
+| Gameplay                                                                                     |                                         Score MA                                         |
+| -------------------------------------------------------------------------------------------- | :--------------------------------------------------------------------------------------: |
+| <img src="/resources/lunar-lander/lunar-lander-gameplay.gif" width="320" title="hover text"> | <img src="/resources/lunar-lander/agent_total_score.jpg" width="450" title="hover text"> |
 
 _These gameplay footages have been made without any code changes, only configuration was changed._
 
@@ -251,7 +251,7 @@ Project Link: [https://github.com/d33are/kat-framework][project-link]
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [license-shield]: https://img.shields.io/github/license/d33are/repo.svg?style=for-the-badge
-[license-url]: https://github.com/d33are/repo/blob/master/LICENSE.txt
+[license-url]: https://github.com/d33are/kat-framework/blob/master/LICENSE
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/dkaszas
 [issues-url]: https://github.com/d33are/kat-framework/issues
