@@ -156,6 +156,7 @@ You can test your installation with the provided unit test package. This test is
 ### Working example
 
 * Hierarchical configuration:
+  
   The runtime configuration is based on a hierarchical yaml file structure:
   ```
   project_dir
@@ -165,7 +166,9 @@ You can test your installation with the provided unit test package. This test is
   | | | |- your_specific_config.yaml
   ```
   This will merge `config_dir/default.yaml` with `config_dir/your_specific_config/your_specific_config.yaml`.
+
   For more information about the hierarchical config, please refer to the [Documentation][himl-documentation].
+  
 * Minimum working configuration (default.yaml):
   ```
   global:
@@ -181,6 +184,7 @@ You can test your installation with the provided unit test package. This test is
   ```
   For more information about config values, please refer to the [Documentation][kat-config-documentation].
 * Python entry point:
+  
   Create a new python file and call the framework as follows:
   ```
   from kat_framework import KatherineApplication
@@ -250,7 +254,7 @@ Project Link: [https://github.com/d33are/kat-framework][project-link]
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[license-shield]: https://img.shields.io/github/license/d33are/repo.svg?style=for-the-badge
+[license-shield]: https://img.shields.io/github/license/d33are/kat-framework.svg?style=for-the-badge
 [license-url]: https://github.com/d33are/kat-framework/blob/master/LICENSE
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/dkaszas
