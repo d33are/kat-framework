@@ -97,19 +97,19 @@ The main goal of the framework is to be simple as possible, and able to use it w
 
 | Gameplay                                                                                       |                                            Score MA                                             |
 | ---------------------------------------------------------------------------------------------- | :---------------------------------------------------------------------------------------------: |
-| <img src="/resources/vizdoom-basic/vizdoom_basic_gameplay.gif" width="320" title="hover text"> | <img src="/resources/vizdoom-basic/avg_score_vizdoom_basic.jpg" width="450" title="hover text"> |
+| <img src="/resources/vizdoom-basic/vizdoom_basic_gameplay.gif" width="320" title="hover text"> | <img src="/resources/vizdoom-basic/avg_score_vizdoom_basic.JPG" width="450" title="hover text"> |
 
 * VizDoom - "defend the line" map:
 
 | Gameplay                                                                                         |                                          Score MA                                          |
 | ------------------------------------------------------------------------------------------------ | :----------------------------------------------------------------------------------------: |
-| <img src="/resources/vizdoom-defend/vizdoom-defend-gameplay.gif" width="320" title="hover text"> | <img src="/resources/vizdoom-defend/agent_total_score.jpg" width="450" title="hover text"> |
+| <img src="/resources/vizdoom-defend/vizdoom-defend-gameplay.gif" width="320" title="hover text"> | <img src="/resources/vizdoom-defend/agent_total_score.JPG" width="450" title="hover text"> |
 
 * OpenAI gym - Box2D - LunarLander:
 
 | Gameplay                                                                                     |                                         Score MA                                         |
 | -------------------------------------------------------------------------------------------- | :--------------------------------------------------------------------------------------: |
-| <img src="/resources/lunar-lander/lunar-lander-gameplay.gif" width="320" title="hover text"> | <img src="/resources/lunar-lander/agent_total_score.jpg" width="450" title="hover text"> |
+| <img src="/resources/lunar-lander/lunar-lander-gameplay.gif" width="320" title="hover text"> | <img src="/resources/lunar-lander/agent_total_score.JPG" width="450" title="hover text"> |
 
 _These gameplay footages have been made without any code changes, only configuration was changed._
 
