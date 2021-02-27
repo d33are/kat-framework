@@ -257,7 +257,7 @@ Project Link: [https://github.com/d33are/kat-framework][project-link]
 [issues-url]: https://github.com/d33are/kat-framework/issues
 [project-link]: https://github.com/d33are/kat-framework
 [himl-documentation]: https://github.com/adobe/himl
-[kat-config-documentation]: https://github.com/d33are/kat-framework/config/config_props.py
+[kat-config-documentation]: https://github.com/d33are/kat-framework/blob/master/kat_framework/config/config_props.py
 [examples-github-repo]: https://github.com/d33are/kat-examples
 [install-tensorflow]: https://www.tensorflow.org/install/
 [install-vizdoom]: https://github.com/mwydmuch/ViZDoom
