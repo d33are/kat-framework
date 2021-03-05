@@ -208,10 +208,7 @@ _For more detailed examples (with cli interface), please refer to the [Examples 
 
 ### Optional dependencies
 
-* For tensorflow backend, please install tensorflow: [Installing Tensorflow][install-tensorflow]
-
-* For playing with zDoom, please install VizDoom: [Installing zDoom][install-vizdoom]
-* For playing with OpenAI gym games, please install gym: [Installing gym][install-gym]
+* For playing with OpenAI gym atari games, please install gym-atari: [Installing gym-atari][install-gym-atari]
 
 _Implementations are included in the framework, just installations are needed._
 
@@ -263,6 +260,4 @@ Project Link: [https://github.com/d33are/kat-framework][project-link]
 [himl-documentation]: https://github.com/adobe/himl
 [kat-config-documentation]: https://github.com/d33are/kat-framework/blob/master/kat_framework/config/config_props.py
 [examples-github-repo]: https://github.com/d33are/kat-examples
-[install-tensorflow]: https://www.tensorflow.org/install/
-[install-vizdoom]: https://github.com/mwydmuch/ViZDoom
-[install-gym]: https://gym.openai.com/docs/
+[install-gym-atari]: https://github.com/openai/gym#atari

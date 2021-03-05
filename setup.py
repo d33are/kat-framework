@@ -25,6 +25,8 @@ setup(name='kat_framework',
       packages=['kat_typing', 'kat_api', 'kat_framework', 'kat_tensorflow'],
       include_package_data=True,
       install_requires=[
+            'tensorflow',
+            'vizdoom',
             'numpy',
             'scikit-image',
             'uritools',
